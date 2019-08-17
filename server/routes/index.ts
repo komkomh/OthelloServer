@@ -1,4 +1,7 @@
 import Express from 'express';
+import { Client, Ban, GameStatus } from '../models/models';
+
+var bans:Ban[] = require('../models/models.ts');
 
 const app = Express();
 
